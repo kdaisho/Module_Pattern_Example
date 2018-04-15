@@ -17,8 +17,8 @@
 		<div class="logo">My Cool Page!</div>
 
 		<div class="controls" rel="js-controls">
-			<a href="register.html" rel="nofollow js-register">register</a> |
-			<a href="login.html" rel="nofollow js-login">login</a>
+			<a href="register.html" rel="nofollow js-register" rel="js-register">register</a> |
+			<a href="login.html" rel="nofollow js-login" rel="js-login">login</a>
 		</div>
 	</header>
 
@@ -46,7 +46,10 @@
 
 </div>
 
-<div id="modal" rel="js-modal"></div>
+<div id="modal" rel="js-modal">
+	<button class="close-btn" rel="js-close">X</button>
+	<div rel="js-content"></div>
+</div>
 
 <script src="js/jquery.js"></script>
 <script src="js/header.js"></script>
